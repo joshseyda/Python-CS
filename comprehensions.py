@@ -15,3 +15,6 @@ lst_comp = [word for word in lst if word[0].lower() == 'a']
 # results
 print('starts_with_a: {}'.format(starts_with_a(lst)))
 print('list_comprehension: {}'.format(lst_comp))
+
+# >>> starts_with_a: ['Acer', 'Asus']
+# >>> list_comprehension: ['Acer', 'Asus']
